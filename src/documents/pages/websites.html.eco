@@ -4,3 +4,20 @@ ico: picture
 layout: page
 pageOrder: 1
 ---
+
+<br/><br/>
+
+ <div id="myCarousel" class="carousel slide">
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="active item"><img src="/images/web-demo/kc.png"alt="website demo kc"/></div>
+    <div class="item"><img src="/images/web-demo/hlg.png"alt="website demo hlg"/></div>
+    <div class="item"><img src="/images/web-demo/gsp.png"alt="website demo gsp"/></div>
+    <div class="item"><img src="/images/web-demo/gom.png"alt="website demo gom"/></div>
+    <div class="item"><img src="/images/web-demo/asw.png"alt="website demo asw"/></div>
+    <div class="item"><img src="/images/web-demo/WAIO.png"alt="website demo waio"/></div>
+  </div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>

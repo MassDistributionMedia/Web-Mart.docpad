@@ -124,13 +124,11 @@
                     z M176.931,422H93.917v40h83.014V422z"/>
                 </svg>
             </li>
-            <li>Two time <strong class="darkgreen">$599</strong> <i class="icon-info-sign help one-time-599"></i></li>
-             <span id="speech-bubble" class="one-time-bubble pull-right"> Starting from <strong class="darkgreen">$599</strong>, get a branded website that is 100% unique and yours. </span>
-            <li><strong>3</strong> Design Revisions <i class="icon-info-sign mute help"></i></li>
-             <span id="speech-bubble" class="rev-bubble pull-right"> Click to learn what a revision is. </span>
-            <li><strong>1</strong> Year Hosting & Domain <i class="icon-info-sign mute help"></i></li>
+            <li>Two time <strong class="darkgreen">$299</strong> <a href="#" rel="tooltip" data-placement="right" title="Starting from $598, get a branded website that is 100% unique and yours."><i class="icon-info-sign help one-time-599"></i></a></li>
+            <li><strong>3</strong> Design Revisions <a href="#" rel="tooltip" data-placement="right" title="Click to learn what a revision is."><i class="icon-info-sign mute help"></i></a></li>
+            <li><strong>1</strong> Year Hosting & Domain <a href="#" rel="tooltip" data-placement="right" title="Any domain name under $10 + Wind Powered Hosting, both free for the first year."><i class="icon-info-sign mute help"></i></a></li>
         </ul>
-        <p><a class="btn" role="button" href="#website-demos" data-toggle="modal">Demos</a> <a class="btn btn-info" href="/website/info">Info</a> <a class="btn orange btn-warning" href="/website/pricing">Pricing</a></p>
+        <p><a class="btn" role="button" href="#website-demos" data-toggle="modal">Demos</a> <a class="btn btn-info" role="button" href="#website-info" data-toggle="modal">Info</a> <a class="btn orange btn-warning" role="button" href="#website-pricing" data-toggle="modal">Pricing</a></p>
     </div>
     <div class="span6">
         <h2>Website Hosting</h2>
@@ -147,11 +145,11 @@
                     l72.119-95.152h220.567L439.287,183.074z"/>
                 </svg>
             </li>
-            <li>Cloud Hosting from <strong class="darkgreen">$29</strong>/month <i class="icon-info-sign help"></i></li>
-            <li>Wind Powered from <strong class="darkgreen">$39</strong>/year <i class="icon-info-sign help mute"></i></li>
-            <li>Hosting from <strong class="darkgreen">$4</strong>/month <i class="icon-info-sign help mute"></i></li>
+            <li>Cloud Hosting from <strong class="darkgreen">$29</strong>/month <a href="#" rel="tooltip" data-placement="right" title="Like a dedicated server, but in the cloud. (a dedicated server is like renting your own computer that you can log into remotely)"><i class="icon-info-sign help"></i></a></li>
+            <li>Wind Powered from <strong class="darkgreen">$39</strong>/year <a href="#" rel="tooltip" data-placement="right" title="These servers are 100% powered by wind turbines in the Mid-West USA, and are super affordable."><i class="icon-info-sign help mute"></i></a></li>
+            <li>Hosting from <strong class="darkgreen">$4</strong>/month <a href="#" rel="tooltip" data-placement="right" title="Hosting on-the-cheap! A shared hosting enviroment with others, but the most afforable."><i class="icon-info-sign help mute"></i></a></li>
         </ul>
-        <p><a class="btn btn-info" href="http://twitter.github.com/bootstrap/">Info</a> <a class="btn btn-warning" href="http://twitter.github.com/bootstrap/">Pricing</a></p>
+        <p><a class="btn btn-info" role="button" href="#hosting-info" data-toggle="modal">Info</a> <a class="btn btn-warning" role="button" href="#hosting-pricing" data-toggle="modal">Pricing</a></p>
     </div>
  
 <!-- Website Demos Modal Start -->
@@ -161,7 +159,17 @@
         <h3 id="webDemoLabel">Website Demos</h3>
       </div>
       <div class="modal-body">
-        <p>One fine body…</p>
+        <div id="myCarousel" class="carousel slide">
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+            <div class="active item"><img src="images/517/kc.png"alt="website demo kc"/></div>
+            <div class="item"><img src="images/517/hlg.png"alt="website demo kc"/></div>
+            <div class="item"><img src="images/517/WAIO.png"alt="website demo kc"/></div>
+          </div>
+          <!-- Carousel nav -->
+          <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+          <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+        </div>
       </div>
       <div class="modal-footer">
         <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
@@ -169,6 +177,70 @@
       </div>
     </div>
 <!-- Website Demos Modal End -->
+
+<!-- Website Info Modal Start -->
+    <div id="website-info" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="webInfoLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="webInfoLabel">Website Info</h3>
+      </div>
+      <div class="modal-body">
+        <p>One fine body…</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+        <button class="btn btn-primary btn-warning">Pricing</button>
+      </div>
+    </div>
+<!-- Website Info Modal End -->
+
+<!-- Website Pricing Modal Start -->
+    <div id="website-pricing" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="webPricingLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="webPricingLabel">Website Pricing</h3>
+      </div>
+      <div class="modal-body">
+        <p>One fine body…</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+        <button class="btn btn-primary btn-warning">Pricing</button>
+      </div>
+    </div>
+<!-- Website Pricing Modal End -->
+
+<!-- Hosting Info Modal Start -->
+    <div id="hosting-info" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="hostingInfoLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="hostInfoLabel">Hosting Info</h3>
+      </div>
+      <div class="modal-body">
+        <p>One fine body…</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+        <button class="btn btn-primary btn-warning">Pricing</button>
+      </div>
+    </div>
+<!-- Hosting Info Modal End -->
+
+<!-- Hosting Pricing Modal Start -->
+    <div id="hosting-pricing" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="hostingPricingLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="hostingPricingLabel">Hosting Pricing</h3>
+      </div>
+      <div class="modal-body">
+        <p>One fine body…</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+        <button class="btn btn-primary btn-warning">Pricing</button>
+      </div>
+    </div>
+<!-- Hosting Pricing Modal End -->
 
 </div>
         </section>
@@ -182,7 +254,7 @@
             </span>
             <span class="pull-right">
                 <a href="http://massdistributionmedia.com/">A MDM Company</a>. <br/>
-                <span class="muted">last updated on 2013-01-26T03:36:07.927Z</span>
+                <span class="muted">last updated on 2013-01-26T17:20:35.931Z</span>
             </span>
         </footer>
     </div><!-- /container -->

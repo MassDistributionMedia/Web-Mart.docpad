@@ -3,7 +3,7 @@
     <title>Web-Mart</title>
     <link href="http://web-mart.me/atom.xml" rel="self"/>
     <link href="http://web-mart.me"/>
-    <updated>2013-01-26T03:36:07.927Z</updated>
+    <updated>2013-01-26T17:20:35.931Z</updated>
     <id>http://web-mart.me</id>
     <author>
         <name>Michael D Mooring</name>
@@ -14,7 +14,7 @@
         <entry>
             <title>This is a Blog Post</title>
             <link href="http://web-mart.me//posts/hello"/>
-            <updated>2013-01-25T23:43:19.000Z</updated>
+            <updated>2013-01-25T14:07:12.000Z</updated>
             <id>http://web-mart.me//posts/hello</id>
             <content type="html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -105,7 +105,7 @@
             &lt;/span&gt;
             &lt;span class=&quot;pull-right&quot;&gt;
                 &lt;a href=&quot;http://massdistributionmedia.com/&quot;&gt;A MDM Company&lt;/a&gt;. &lt;br/&gt;
-                &lt;span class=&quot;muted&quot;&gt;last updated on 2013-01-26T03:36:07.927Z&lt;/span&gt;
+                &lt;span class=&quot;muted&quot;&gt;last updated on 2013-01-26T17:20:35.931Z&lt;/span&gt;
             &lt;/span&gt;
         &lt;/footer&gt;
     &lt;/div&gt;&lt;!-- /container --&gt;
