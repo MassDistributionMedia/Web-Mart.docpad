@@ -3,7 +3,7 @@
     <title>Web-Mart</title>
     <link href="http://web-mart.me/atom.xml" rel="self"/>
     <link href="http://web-mart.me"/>
-    <updated>2013-01-25T22:18:40.640Z</updated>
+    <updated>2013-01-26T03:36:07.927Z</updated>
     <id>http://web-mart.me</id>
     <author>
         <name>Michael D Mooring</name>
@@ -14,7 +14,7 @@
         <entry>
             <title>This is a Blog Post</title>
             <link href="http://web-mart.me//posts/hello"/>
-            <updated>2013-01-25T14:07:12.000Z</updated>
+            <updated>2013-01-25T23:43:19.000Z</updated>
             <id>http://web-mart.me//posts/hello</id>
             <content type="html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -96,7 +96,7 @@
 &lt;/footer&gt;
         &lt;/section&gt;
         &lt;footer&gt;
-            &lt;span&gt;&amp;copy; Web-Mart 2013 
+            &lt;span class=&quot;pull-left&quot;&gt;&amp;copy; Web-Mart 2013 
                 &lt;script data-cfbadgetype=&quot;f&quot; data-cfbadgeskin=&quot;icon&quot; type=&quot;text/javascript&quot;&gt;
                     //&lt;![CDATA[
                     try{window.CloudFlare||function(){var a=window.document,b=a.createElement(&quot;script&quot;),a=a.getElementsByTagName(&quot;script&quot;)[0];window.CloudFlare=[];b.type=&quot;text/javascript&quot;;b.async=!0;b.src=&quot;//ajax.cloudflare.com/cdn-cgi/nexp/cloudflare.js&quot;;a.parentNode.insertBefore(b,a)}(),CloudFlare.push(function(a){a([&quot;cloudflare/badge&quot;])})}catch(e$$5){try{console.error(&quot;CloudFlare badge code could not be loaded. &quot;+e$$5.message)}catch(e$$6){}};
@@ -105,14 +105,13 @@
             &lt;/span&gt;
             &lt;span class=&quot;pull-right&quot;&gt;
                 &lt;a href=&quot;http://massdistributionmedia.com/&quot;&gt;A MDM Company&lt;/a&gt;. &lt;br/&gt;
-                &lt;span class=&quot;muted&quot;&gt;last updated on 2013-01-25T22:18:40.640Z&lt;/span&gt;
+                &lt;span class=&quot;muted&quot;&gt;last updated on 2013-01-26T03:36:07.927Z&lt;/span&gt;
             &lt;/span&gt;
         &lt;/footer&gt;
     &lt;/div&gt;&lt;!-- /container --&gt;
 
     &lt;!-- Scripts --&gt;
-    &lt;script src=&quot;http://yui.yahooapis.com/3.8.1/build/yui/yui-min.js&quot;&gt;&lt;/script&gt;
-    &lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+    &lt;script defer=&quot;defer&quot;  src=&quot;/vendor/jquery.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/twitter-bootstrap/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </content>

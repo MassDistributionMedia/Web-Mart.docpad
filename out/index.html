@@ -124,11 +124,13 @@
                     z M176.931,422H93.917v40h83.014V422z"/>
                 </svg>
             </li>
-            <li>One time <strong class="darkgreen">$599</strong> <i class="icon-info-sign help one-time-599"></i></li> <span id="speech-bubble" class="one-time-bubble pull-right"> Starting from $599, get a branded website that is 100% unique and yours. </span>
+            <li>Two time <strong class="darkgreen">$599</strong> <i class="icon-info-sign help one-time-599"></i></li>
+             <span id="speech-bubble" class="one-time-bubble pull-right"> Starting from <strong class="darkgreen">$599</strong>, get a branded website that is 100% unique and yours. </span>
             <li><strong>3</strong> Design Revisions <i class="icon-info-sign mute help"></i></li>
+             <span id="speech-bubble" class="rev-bubble pull-right"> Click to learn what a revision is. </span>
             <li><strong>1</strong> Year Hosting & Domain <i class="icon-info-sign mute help"></i></li>
         </ul>
-        <p><a class="btn" href="/website/demo">Demos</a> <a class="btn btn-info" href="/website/info">Info</a> <a class="btn orange btn-warning" href="/website/pricing">Pricing</a></p>
+        <p><a class="btn" role="button" href="#website-demos" data-toggle="modal">Demos</a> <a class="btn btn-info" href="/website/info">Info</a> <a class="btn orange btn-warning" href="/website/pricing">Pricing</a></p>
     </div>
     <div class="span6">
         <h2>Website Hosting</h2>
@@ -147,13 +149,31 @@
             </li>
             <li>Cloud Hosting from <strong class="darkgreen">$29</strong>/month <i class="icon-info-sign help"></i></li>
             <li>Wind Powered from <strong class="darkgreen">$39</strong>/year <i class="icon-info-sign help mute"></i></li>
+            <li>Hosting from <strong class="darkgreen">$4</strong>/month <i class="icon-info-sign help mute"></i></li>
         </ul>
         <p><a class="btn btn-info" href="http://twitter.github.com/bootstrap/">Info</a> <a class="btn btn-warning" href="http://twitter.github.com/bootstrap/">Pricing</a></p>
     </div>
+ 
+<!-- Website Demos Modal Start -->
+    <div id="website-demos" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="webDemoLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="webDemoLabel">Website Demos</h3>
+      </div>
+      <div class="modal-body">
+        <p>One fine body…</p>
+      </div>
+      <div class="modal-footer">
+        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+        <button class="btn btn-primary btn-warning">Pricing</button>
+      </div>
+    </div>
+<!-- Website Demos Modal End -->
+
 </div>
         </section>
         <footer>
-            <span>&copy; Web-Mart 2013 
+            <span class="pull-left">&copy; Web-Mart 2013 
                 <script data-cfbadgetype="f" data-cfbadgeskin="icon" type="text/javascript">
                     //<![CDATA[
                     try{window.CloudFlare||function(){var a=window.document,b=a.createElement("script"),a=a.getElementsByTagName("script")[0];window.CloudFlare=[];b.type="text/javascript";b.async=!0;b.src="//ajax.cloudflare.com/cdn-cgi/nexp/cloudflare.js";a.parentNode.insertBefore(b,a)}(),CloudFlare.push(function(a){a(["cloudflare/badge"])})}catch(e$$5){try{console.error("CloudFlare badge code could not be loaded. "+e$$5.message)}catch(e$$6){}};
@@ -162,13 +182,12 @@
             </span>
             <span class="pull-right">
                 <a href="http://massdistributionmedia.com/">A MDM Company</a>. <br/>
-                <span class="muted">last updated on 2013-01-25T22:18:40.640Z</span>
+                <span class="muted">last updated on 2013-01-26T03:36:07.927Z</span>
             </span>
         </footer>
     </div><!-- /container -->
 
     <!-- Scripts -->
-    <script src="http://yui.yahooapis.com/3.8.1/build/yui/yui-min.js"></script>
-    <script defer="defer"  src="/scripts/script.js"></script>
+    <script defer="defer"  src="/vendor/jquery.js"></script><script defer="defer"  src="/vendor/twitter-bootstrap/js/bootstrap.min.js"></script><script defer="defer"  src="/scripts/script.js"></script>
 </body>
 </html>

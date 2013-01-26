@@ -9,6 +9,9 @@ table tfoot th,
 table tbody th {
   border-top: 1px solid #ddd;
 }
+footer {
+  margin: 33px 0 0 0;
+}
 li {
   list-style: none;
 }
@@ -191,28 +194,6 @@ li {
   -ms-transform: rotate(60deg);
   -o-transform: rotate(60deg);
 }
-#speech-bubble {
-  width: 120px;
-  background: #dedede;
-  position: absolute;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  padding: 13px;
-}
-#speech-bubble:before {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 0;
-  border-top: 13px solid transparent;
-  border-right: 26px solid #dedede;
-  border-bottom: 13px solid transparent;
-  margin: 13px 0 0 -44px;
-}
-.one-time-bubble {
-  margin: -51px 0 0 377px;
-}
 .navbar-fixed-top {
   position: fixed;
 }
@@ -245,12 +226,8 @@ li {
 .help {
   cursor: help;
 }
-.span6 {
-  background-image: url("./img/517/kc.png");
-}
 @media only screen and ( min-width: 786px ) and (max-width: 1024px) {
   .hero-unit h1 {
-    text-shadow: -1px 1px 1px #ff8c00;
     font-size: 45px;
   }
 }
