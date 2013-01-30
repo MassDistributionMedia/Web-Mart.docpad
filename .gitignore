@@ -1,0 +1,25 @@
+.project
+.settings/*
+.idea/*
+.c9revisions/*
+node_modules/*
+!node_modules/chain
+!node_modules/EventPipe
+!node_modules/watchfolder
+#!node_modules/combohandler
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Swift Volatiles - logs etc. #
+###############################
+
+logs/*
+config/development.js
