@@ -49,6 +49,7 @@
 						</li>
 					<% end %>
 				</ul>
+				<span class="persona-btn">Sign In</span>
 				<a class="phone" href="">609-651-9358</a>
 			</div>
 		</div>
