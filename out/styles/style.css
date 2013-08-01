@@ -12,6 +12,9 @@ table tbody th {
 footer {
   margin: 33px 0 0 0;
 }
+ul {
+  margin: 0 0 9px 0;
+}
 li {
   list-style: none;
 }
@@ -48,14 +51,24 @@ li {
 .darkgrey {
   color: #444;
 }
+.midnightblue {
+  color: #191970;
+}
 .darkgreen {
   color: #006400;
+}
+.fixed {
+  position: fixed;
+}
+.hero-unit {
+  margin: 19px auto 30px auto;
 }
 .hero-unit h1 {
   color: #08c;
 }
 .hero-unit p {
-  color: #ff8c00;
+  color: #789;
+  margin: 7px 3px;
 }
 .hero-unit .website_art {
   box-shadow: 9px 9px 0px 0px #dedede;
@@ -67,7 +80,7 @@ li {
   margin: -188px 0 0 0;
 }
 .hero-unit .website_art .site_title {
-  color: #815d00;
+  color: #191970;
   float: left;
   margin: 21px 0 0 21px;
   font-weight: bold;
@@ -80,13 +93,19 @@ li {
   padding: 7px;
   border-radius: 90px;
 }
+.hero-unit #phone-3-icon {
+  fill: #191970;
+}
+.hero-unit ul {
+  margin: 0 0 0 26px;
+}
 .hero-unit li {
   padding: 0px 4px;
   display: inline;
-  background: #ffa500;
+  background: transparent;
   font-size: 9px;
-  box-shadow: -1px 1px 1px 1px #ffa65f;
-  color: #333;
+  box-shadow: -1px 1px 1px 1px #191970;
+  color: #191970;
 }
 #heart {
   position: absolute;
@@ -105,6 +124,7 @@ li {
   position: absolute;
   margin: 25px -22px 0;
   font-size: 23px;
+  text-shadow: -1px -1px 0 #b60000;
 }
 #heart:before,
 #heart:after {
@@ -126,9 +146,7 @@ li {
   -moz-transform-origin: 0 100%;
   -ms-transform-origin: 0 100%;
   -o-transform-origin: 0 100%;
-}
-#heart:before transform-origin 0100%,
-#heart:after transform-origin 0100% {
+  transform-origin: 0 100%;
   box-shadow: 3px 3px 3px rgba(11,11,11,0.1);
 }
 #heart:after {
@@ -200,8 +218,14 @@ li {
 .navbar-inner {
   background: #fff !important;
 }
-.navbar .nav > li > a:hover {
+.navbar .nav li {
+  color: #000;
+  opacity: 0.8;
+}
+.navbar .nav li hover {
+  background: transparent;
   color: #333;
+  opacity: 1;
 }
 .navbar .brand {
   color: #08c;
@@ -240,5 +264,10 @@ li {
 @media only screen and ( min-width: 1px ) and (max-width: 977px) {
   .hero-unit .website_art {
     display: none;
+  }
+}
+@media only screen and ( min-width: 1103px ) {
+  .hero-unit h1 {
+    font-size: 45px;
   }
 }
