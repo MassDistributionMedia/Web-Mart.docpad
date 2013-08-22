@@ -3,7 +3,7 @@
 	<title>Web-Mart</title>
 	<link href="http://web-mart.me/atom.xml" rel="self"/>
 	<link href="http://web-mart.me"/>
-	<updated>2013-08-22T13:47:09.301Z</updated>
+	<updated>2013-08-22T14:15:30.868Z</updated>
 	<id>http://web-mart.me</id>
 	<author>
 		<name>Michael D Mooring</name>
@@ -78,7 +78,10 @@
 					
 					&lt;li class=&quot;persona-btn&quot; style=&quot;display:none&quot;&gt;&lt;i class=&quot;icon-user&quot;&gt;&lt;/i&gt;Sign In&lt;/li&gt;
 				&lt;/ul&gt;
-				&lt;a class=&quot;phone&quot; href=&quot;&quot;&gt;609-651-9358&lt;/a&gt;
+				&lt;span class=&quot;pull-right contact-header&quot;&gt;
+					&lt;a class=&quot;phone clearfix&quot; href=&quot;&quot;&gt;609-651-9358&lt;/a&gt;
+					&lt;a class=&quot;muted clearfix&quot; href=&quot;mailto:hi@web-mart.me&quot;&gt;&lt;sup&gt;hi@web-mart.me&lt;/sup&gt;&lt;/a&gt;
+				&lt;/span&gt;
 			&lt;/div&gt;
 		&lt;/div&gt;
 	&lt;/div&gt;
@@ -104,7 +107,7 @@
 			&lt;/span&gt;
 			&lt;span class=&quot;pull-right&quot;&gt;
 				&lt;a href=&quot;http://massdistributionmedia.com/&quot;&gt;A MDM Company&lt;/a&gt;. &lt;br/&gt;
-				&lt;span class=&quot;muted&quot;&gt;last updated on 2013-08-22T13:47:09.301Z&lt;/span&gt;
+				&lt;span class=&quot;muted&quot;&gt;last updated on 2013-08-22T14:15:30.868Z&lt;/span&gt;
 			&lt;/span&gt;
 		&lt;/footer&gt;
 	&lt;/div&gt;&lt;!-- /container --&gt;

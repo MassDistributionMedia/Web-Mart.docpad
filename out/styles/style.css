@@ -60,8 +60,14 @@ li {
 .fixed {
   position: fixed;
 }
+.absolute {
+  position: absolute;
+}
 .round {
   border-radius: 7px;
+}
+.contact-header {
+  margin: 10px 0 0 0;
 }
 #websitePricingHome {
   margin: auto;
@@ -250,8 +256,6 @@ li {
   margin: 7px 10px 0 0;
 }
 .phone {
-  float: right;
-  padding: 15px 33px 10px 11px;
   font-weight: bold;
 }
 .mute {
