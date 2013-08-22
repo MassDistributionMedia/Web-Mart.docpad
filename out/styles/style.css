@@ -63,6 +63,10 @@ li {
 .round {
   border-radius: 7px;
 }
+#websitePricingHome {
+  margin: auto;
+  width: 222px;
+}
 .order-now {
   bottom: 77px;
   right: 77px;

@@ -11,7 +11,7 @@ title: 'Home'
 		The following is a work in progress.
 		<a class="btn btn-danger pull-right" data-dismiss="alert" href="#">I Understand.</a>
 	</div>
-	<h1>Welcome to your new site !</h1>
+	<h1>Say Hi, to your new site !</h1>
 	<p>
 		We craft original, beautifully branded websites on the quick-<em>n</em>-cheap.
 		<br/>
@@ -69,7 +69,11 @@ title: 'Home'
 			<li><strong>3</strong> Design Revisions <a href="#" rel="tooltip" data-placement="right" title="Click to learn what a revision is."><i class="icon-info-sign mute help"></i></a></li>
 			<li><strong>1</strong> Year Hosting & Domain <a href="#" rel="tooltip" data-placement="right" title="Any domain name under $10 + Wind Powered Hosting, both free for the first year."><i class="icon-info-sign mute help"></i></a></li>
 		</ul>
-		<p><a class="btn" role="button" href="#website-demos" data-toggle="modal">Demos</a> <a class="btn btn-info" role="button" href="#website-info" data-toggle="modal">Info</a> <a class="btn orange btn-warning" role="button" href="#website-pricing" data-toggle="modal">Pricing</a></p>
+		<p>
+		 <a class="btn orange btn-warning" role="button" href="#website-pricing" data-toggle="modal">Pricing</a>
+		 <a class="btn" role="button" href="#website-demos" data-toggle="modal">Demos</a>
+		 <a class="btn btn-info" role="button" href="#website-info" data-toggle="modal">Info</a>
+		</p>
 	</div>
 	<div class="span6">
 		<h2>Website Hosting</h2>
@@ -90,7 +94,10 @@ title: 'Home'
 			<li>Wind Powered from <strong class="darkgreen">$39</strong>/year <a href="#" rel="tooltip" data-placement="right" title="These servers are 100% powered by wind turbines in the Mid-West USA, and are super affordable."><i class="icon-info-sign help mute"></i></a></li>
 			<li>Hosting from <strong class="darkgreen">$4</strong>/month <a href="#" rel="tooltip" data-placement="right" title="Hosting on-the-cheap! A shared hosting enviroment with others, but the most immediately afforable."><i class="icon-info-sign help mute"></i></a></li>
 		</ul>
-		<p><a class="btn btn-info" role="button" href="#hosting-info" data-toggle="modal">Info</a> <a class="btn btn-warning" role="button" href="#hosting-pricing" data-toggle="modal">Pricing</a></p>
+		<p>
+			<a class="btn btn-warning" role="button" href="#hosting-pricing" data-toggle="modal">Pricing</a>
+			<a class="btn btn-info" role="button" href="#hosting-info" data-toggle="modal">Info</a>
+		</p>
 	</div>
  
 <!-- Website Demos Modal Start -->
@@ -143,11 +150,31 @@ title: 'Home'
 	    <h3 id="webPricingLabel">Website Pricing</h3>
 	  </div>
 	  <div class="modal-body">
-	    <p>One fine body…</p>
+	      <h3>ORDER WEBSITES NOW & SAVE.</h3> 
+		  <form id="websitePricingHome" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+		    <input type="hidden" name="cmd" value="_s-xclick">
+		    <input type="hidden" name="hosted_button_id" value="PG9PUWKETJV2Q">
+		    <table>
+		    <tr><td><input type="hidden" name="on0" value="Payment Options">Payment Options</td></tr><tr><td><select name="os0">
+		      <option value="Two Payments">Two Payments $299.00 USD</option>
+		      <option value="Single Payment">Single Payment $598.00 USD</option>
+		    </select> </td></tr>
+		    <tr><td><input type="hidden" name="on1" value="Domain & Hosting">Domain & Hosting</td></tr><tr><td><select name="os1">
+		      <option value="Need Domain.">Need Domain. </option>
+		      <option value="Need Hosting.">Need Hosting. </option>
+		      <option value="Need Domain & Hosting.">Need Domain & Hosting. </option>
+		      <option value="I have both ready.">I have both ready. </option>
+		    </select> </td></tr>
+		    </table>
+		    <input type="hidden" name="currency_code" value="USD">
+		    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+		    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		  </form>
 	  </div>
 	  <div class="modal-footer">
+	    <button class="btn btn-info">Info</button>
+	    <a class="btn" role="button" href="#website-demos" data-toggle="modal">Demos</a>
 	    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-	    <button class="btn btn-primary btn-warning">Pricing</button>
 	  </div>
 	</div>
 <!-- Website Pricing Modal End -->
@@ -175,11 +202,31 @@ title: 'Home'
 	    <h3 id="hostingPricingLabel">Hosting Pricing</h3>
 	  </div>
 	  <div class="modal-body">
-	    <p>One fine body…</p>
+	    <h3> ORDER HOSTING NOW & SAVE.</h3>
+	    <form id="websitePricingHome" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="QF4KVJDACBETG">
+			<table>
+			<tr><td><input type="hidden" name="on0" value="Hosting Options">Hosting Options</td></tr><tr><td><select name="os0">
+				<option value="Cloud Hosting (monthly)">Cloud Hosting (monthly) $29.00 USD</option>
+				<option value="Wind Powered (annual)">Wind Powered (annual) $39.00 USD</option>
+			</select> </td></tr>
+			<tr><td><input type="hidden" name="on1" value="OS Options">OS Options</td></tr><tr><td><select name="os1">
+				<option value="CentOS (cloud)">CentOS (cloud) </option>
+				<option value="Ubuntu (cloud)">Ubuntu (cloud) </option>
+				<option value="RedHat (cloud)">RedHat (cloud) </option>
+				<option value="Windows (not available for wind powered)">Windows (not available for wind powered) </option>
+				<option value="Linux (for Wind Powered)">Linux (for Wind Powered) </option>
+			</select> </td></tr>
+			</table>
+			<input type="hidden" name="currency_code" value="USD">
+			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+		</form>
 	  </div>
 	  <div class="modal-footer">
+	  	<a class="btn btn-info" role="button" href="#hosting-info" data-toggle="modal">Info</a>
 	    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-	    <button class="btn btn-primary btn-warning">Pricing</button>
 	  </div>
 	</div>
 <!-- Hosting Pricing Modal End -->
