@@ -15,10 +15,7 @@ docpadConfig = {
 			url: "http://web-mart.me"
 
 			# Here are some old site urls that you would like to redirect from
-			oldUrls: [
-				'www.website.com',
-				'website.herokuapp.com'
-			]
+			oldUrls: ['']
 
 			# The default title of our website
 			title: "Web-Mart"

@@ -3,7 +3,7 @@
 	<title>Web-Mart</title>
 	<link href="http://web-mart.me/atom.xml" rel="self"/>
 	<link href="http://web-mart.me"/>
-	<updated>2013-08-22T14:41:01.844Z</updated>
+	<updated>2013-08-22T15:03:34.879Z</updated>
 	<id>http://web-mart.me</id>
 	<author>
 		<name>Michael D Mooring</name>
@@ -107,7 +107,7 @@
 			&lt;/span&gt;
 			&lt;span class=&quot;pull-right&quot;&gt;
 				&lt;a href=&quot;http://massdistributionmedia.com/&quot;&gt;A MDM Company&lt;/a&gt;. &lt;br/&gt;
-				&lt;span class=&quot;muted&quot;&gt;last updated on 2013-08-22T14:41:01.844Z&lt;/span&gt;
+				&lt;span class=&quot;muted&quot;&gt;last updated on 2013-08-22T15:03:34.879Z&lt;/span&gt;
 			&lt;/span&gt;
 		&lt;/footer&gt;
 	&lt;/div&gt;&lt;!-- /container --&gt;
@@ -158,7 +158,7 @@ var inject = function(){
 	} else {
 		inject();
 	}
-})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/jquery.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/twitter-bootstrap/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+})();&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/jquery.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </content>
