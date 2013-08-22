@@ -73,6 +73,13 @@ li {
   margin: auto;
   width: 222px;
 }
+.navbar .nav>li>a:hover {
+  color: #08c;
+}
+.navbar .nav .active > a,
+.navbar .nav .active > a:hover {
+  background-color: #0af;
+}
 .order-now {
   bottom: 77px;
   right: 77px;
