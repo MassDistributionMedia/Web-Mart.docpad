@@ -34,7 +34,11 @@
 	<![endif]-->
 
 	<!-- Styles -->
-	<link  rel="stylesheet" href="/vendor/twitter-bootstrap/css/bootstrap.css" /><link  rel="stylesheet" href="/vendor/twitter-bootstrap/css/bootstrap-responsive.css" /><link  rel="stylesheet" href="/styles/style.css" />
+	<style >html.wait {
+	cursor: wait !important;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}</style><link  rel="stylesheet" href="/vendor/twitter-bootstrap/css/bootstrap.css" /><link  rel="stylesheet" href="/vendor/twitter-bootstrap/css/bootstrap-responsive.css" /><link  rel="stylesheet" href="/styles/style.css" />
 </head>
 <body>
 	<!-- Markup -->
@@ -67,12 +71,14 @@
 		<section id="content" class="content">
 			<!-- Main hero unit for a primary marketing message or call to action -->
 <div class="hero-unit">
+	<!-- UNDER CONSTRUCTION ALERT MESSAGE
 	<div class="alert alert-error fixed">  
 		<a class="close" data-dismiss="alert">×</a>  
 		<strong>Web-Mart.me is Under Construction.</strong><br/>
 		The following is a work in progress.
 		<a class="btn btn-danger pull-right" data-dismiss="alert" href="#">I Understand.</a>
-	</div>
+	</div> 
+	-->
 	<h1>Say Hi, to your new site !</h1>
 	<p>
 		We craft original, beautifully branded websites on the quick-<em>n</em>-cheap.
@@ -172,9 +178,17 @@
 	    <div id="myCarousel" class="carousel slide">
 		  <!-- Carousel items -->
 		  <div class="carousel-inner">
-		    <div class="active item"><img src="images/517/kc.png"alt="website demo kc"/><a target="_blank" href="http://getKillerconfidence.com/"> http://GetKillerConfidence.com/ </a></div>
-		    <div class="item"><img src="images/517/hlg.png"alt="website demo kc"/><a target="_blank" href="http://egalizationlawyer.com/"> http://legalizationlawyer.com/ </a></div>
-		    <div class="item"><img src="images/517/WAIO.png"alt="website demo kc"/><a target="_blank" href="http://waiosolutions.com/"> http://Waiosolutions.com/ </a></div>
+		    <div class="active item">
+		    	<img src="images/517/kc.png"alt="website demo kc"/>
+		    	<a class="muted" target="_blank" href="http://getKillerconfidence.com/"> GetKillerConfidence.com </a>
+		    </div>
+		    <div class="item">
+		    	<img src="images/517/hlg.png"alt="website demo kc"/>
+		    	<a class="muted" target="_blank" href="http://egalizationlawyer.com/"> LegalizationLawyer.com </a>
+		    </div>
+		    <div class="item">
+		    	<img src="images/517/WAIO.png"alt="website demo kc"/>
+		    	<a class="muted" target="_blank" href="http://waiosolutions.com/"> http://WAIOsolutions.com </a></div>
 		  </div>
 		  <!-- Carousel nav -->
 		  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
@@ -305,12 +319,57 @@
 			</span>
 			<span class="pull-right">
 				<a href="http://massdistributionmedia.com/">A MDM Company</a>. <br/>
-				<span class="muted">last updated on 2013-08-22T14:35:14.807Z</span>
+				<span class="muted">last updated on 2013-08-22T14:41:01.844Z</span>
 			</span>
 		</footer>
 	</div><!-- /container -->
 
 	<!-- Scripts -->
-	<script defer="defer"  src="/vendor/jquery.js"></script><script defer="defer"  src="/vendor/twitter-bootstrap/js/bootstrap.min.js"></script><script defer="defer"  src="/scripts/script.js"></script>
+	<script >(function(){
+	/* Did we just livereload? */
+var log = !!(localStorage && console && console.log && true);
+if ( log && localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReload completed at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var primus = new Primus('/docpad-livereload');
+	primus.on('data', function(data){
+		if ( data && data.message ) {
+			if ( data.message === 'generateBefore' ) {
+				if ( log ) {
+					console.log('LiveReload started at', new Date());
+				}
+				if ( typeof document.getElementsByTagName !== 'undefined' ) {
+	document.getElementsByTagName('html')[0].className += ' wait';
+}
+			}
+			else if ( data.message === 'generateAfter' ) {
+				if ( log ) {
+					localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+				}
+				document.location.reload();
+			}
+		}
+	});
+};
+	/* Inject socket into our page */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = 'async';
+	t.src = '/primus/primus.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t, s);
+};
+	if ( typeof Primus !== 'undefined' ) {
+		listen();
+	} else {
+		inject();
+	}
+})();</script><script defer="defer"  src="/vendor/jquery.js"></script><script defer="defer"  src="/vendor/twitter-bootstrap/js/bootstrap.min.js"></script><script defer="defer"  src="/scripts/script.js"></script>
 </body>
 </html>
