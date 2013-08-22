@@ -3,7 +3,7 @@
 	<title>Web-Mart</title>
 	<link href="http://web-mart.me/atom.xml" rel="self"/>
 	<link href="http://web-mart.me"/>
-	<updated>2013-08-01T18:22:20.920Z</updated>
+	<updated>2013-08-22T12:44:38.629Z</updated>
 	<id>http://web-mart.me</id>
 	<author>
 		<name>Michael D Mooring</name>
@@ -34,7 +34,7 @@
 	&lt;meta name=&quot;author&quot; content=&quot;Michael D Mooring&quot; /&gt;
 
 	&lt;!-- Output DocPad produced meta elements --&gt;
-	&lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad v6.47.0&quot;/&gt;
+	&lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad v6.50.0&quot;/&gt;
 
 	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
 	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;
@@ -65,17 +65,11 @@
 			&lt;div class=&quot;container&quot;&gt;
 				&lt;a class=&quot;brand&quot; href=&quot;/&quot;&gt;Web-Mart&lt;/a&gt;
 				&lt;ul class=&quot;nav&quot;&gt;
+					&lt;li&gt;&lt;a href=&quot;http://www.web-mart.me/&quot;&gt;&lt;i class=&quot;icon-globe&quot;&gt;&lt;/i&gt; Domains&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;http://www.web-mart.me/hosting/web-hosting_4.aspx?ci=1782&amp;prog_id=webmartme&quot;&gt;&lt;i class=&quot;icon-tasks&quot;&gt;&lt;/i&gt; Hosting&lt;/a&gt;&lt;/li&gt;
 					
 						&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/websites&quot; class=&quot;&quot;&gt;
 							&lt;a href=&quot;/pages/websites&quot; property=&quot;dc:title&quot;&gt;&lt;i class=&quot;icon-picture&quot;&gt;&lt;/i&gt; Websites&lt;/a&gt;
-						&lt;/li&gt;
-					
-						&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/domains&quot; class=&quot;&quot;&gt;
-							&lt;a href=&quot;/pages/domains&quot; property=&quot;dc:title&quot;&gt;&lt;i class=&quot;icon-globe&quot;&gt;&lt;/i&gt; Domains&lt;/a&gt;
-						&lt;/li&gt;
-					
-						&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/hosting&quot; class=&quot;&quot;&gt;
-							&lt;a href=&quot;/pages/hosting&quot; property=&quot;dc:title&quot;&gt;&lt;i class=&quot;icon-tasks&quot;&gt;&lt;/i&gt; Hosting&lt;/a&gt;
 						&lt;/li&gt;
 					
 						&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/more&quot; class=&quot;&quot;&gt;
@@ -110,7 +104,7 @@
 			&lt;/span&gt;
 			&lt;span class=&quot;pull-right&quot;&gt;
 				&lt;a href=&quot;http://massdistributionmedia.com/&quot;&gt;A MDM Company&lt;/a&gt;. &lt;br/&gt;
-				&lt;span class=&quot;muted&quot;&gt;last updated on 2013-08-01T18:22:20.920Z&lt;/span&gt;
+				&lt;span class=&quot;muted&quot;&gt;last updated on 2013-08-22T12:44:38.629Z&lt;/span&gt;
 			&lt;/span&gt;
 		&lt;/footer&gt;
 	&lt;/div&gt;&lt;!-- /container --&gt;

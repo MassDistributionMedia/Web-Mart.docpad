@@ -10,13 +10,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 	<!-- Our site title and description -->
-	<title><%= @getPreparedTitle() %></title>
-	<meta name="description" content="<%= @getPreparedDescription() %>" />
-	<meta name="keywords" content="<%= @getPreparedKeywords() %>" />
-	<meta name="author" content="<%= @site.author or '' %>" />
+	<title>This is a Blog Post | Web-Mart</title>
+	<meta name="description" content="Website design, hosting and domains cheap!" />
+	<meta name="keywords" content="custom website, original website, cheap website, website design, cheap domain names, cheap hosting, cheap cloud hosting" />
+	<meta name="author" content="Michael D Mooring" />
 
 	<!-- Output DocPad produced meta elements -->
-	<%- @getBlock('meta').toHTML() %>
+	<meta http-equiv="X-Powered-By" content="DocPad v6.47.0"/>
 
 	<!-- Mobile viewport optimized: h5bp.com/viewport -->
 	<meta name="viewport" content="width=device-width" />
@@ -34,7 +34,7 @@
 	<![endif]-->
 
 	<!-- Styles -->
-	<%- @getBlock('styles').add(["/vendor/twitter-bootstrap/css/bootstrap.css","/vendor/twitter-bootstrap/css/bootstrap-responsive.css","/styles/style.css"]).toHTML() %>
+	<link  rel="stylesheet" href="/vendor/twitter-bootstrap/css/bootstrap.css" /><link  rel="stylesheet" href="/vendor/twitter-bootstrap/css/bootstrap-responsive.css" /><link  rel="stylesheet" href="/styles/style.css" />
 </head>
 <body>
 	<!-- Markup -->
@@ -43,13 +43,23 @@
 			<div class="container">
 				<a class="brand" href="/">Web-Mart</a>
 				<ul class="nav">
-					<li><a href="http://www.web-mart.me/"><i class="icon-globe"></i> Domains</a></li>
-					<li><a href="http://www.web-mart.me/hosting/web-hosting_4.aspx?ci=1782&prog_id=webmartme"><i class="icon-tasks"></i> Hosting</a></li>
-					<% for document in @getCollection('pages').toJSON(): %>
-						<li typeof="sioc:Page" about="<%= document.url %>" class="<%= 'active'  if @document.url is document.url %>">
-							<a href="<%= document.url %>" property="dc:title"><i class="icon-<%= document.ico %>"></i> <%= document.title %></a>
+					
+						<li typeof="sioc:Page" about="/pages/websites" class="">
+							<a href="/pages/websites" property="dc:title"><i class="icon-picture"></i> Websites</a>
 						</li>
-					<% end %>
+					
+						<li typeof="sioc:Page" about="/pages/domains" class="">
+							<a href="/pages/domains" property="dc:title"><i class="icon-globe"></i> Domains</a>
+						</li>
+					
+						<li typeof="sioc:Page" about="/pages/hosting" class="">
+							<a href="/pages/hosting" property="dc:title"><i class="icon-tasks"></i> Hosting</a>
+						</li>
+					
+						<li typeof="sioc:Page" about="/pages/more" class="">
+							<a href="/pages/more" property="dc:title"><i class="icon-align-justify"></i> More</a>
+						</li>
+					
 					<li class="persona-btn" style="display:none"><i class="icon-user"></i>Sign In</li>
 				</ul>
 				<a class="phone" href="">609-651-9358</a>
@@ -58,7 +68,15 @@
 	</div>
 	<div class="container">
 		<section id="content" class="content">
-			<%- @content %>
+			<article id="post" class="post">
+	<h1>This is a Blog Post</h1>
+	<div class="post-content"><p>This is a <strong>blog post</strong></p>
+</div>
+</article>
+
+<footer>
+	
+</footer>
 		</section>
 		<footer>
 			<span class="pull-left">&copy; Web-Mart 2013 
@@ -70,12 +88,12 @@
 			</span>
 			<span class="pull-right">
 				<a href="http://massdistributionmedia.com/">A MDM Company</a>. <br/>
-				<span class="muted">last updated on <%= @site.date.toISOString() %></span>
+				<span class="muted">last updated on 2013-08-01T19:32:19.022Z</span>
 			</span>
 		</footer>
 	</div><!-- /container -->
 
 	<!-- Scripts -->
-	<%- @getBlock('scripts').add(["/vendor/jquery.js","/vendor/twitter-bootstrap/js/bootstrap.min.js","/scripts/script.js"]).toHTML() %>
+	<script defer="defer"  src="/vendor/jquery.js"></script><script defer="defer"  src="/vendor/twitter-bootstrap/js/bootstrap.min.js"></script><script defer="defer"  src="/scripts/script.js"></script>
 </body>
 </html>
