@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Web-Mart</title>
+	<link href="http://web-mart.me/atom.xml" rel="self"/>
+	<link href="http://web-mart.me"/>
+	<updated>2013-08-22T15:37:20.447Z</updated>
+	<id>http://web-mart.me</id>
+	<author>
+		<name>Michael D Mooring</name>
+		<email>mike@mdm.cm</email>
+	</author>
+
+	
+		<entry>
+			<title>This is a Blog Post</title>
+			<link href="http://web-mart.me//posts/hello"/>
+			<updated>2013-04-09T19:55:57.000Z</updated>
+			<id>http://web-mart.me//posts/hello</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+	   More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;This is a Blog Post | Web-Mart&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;Website design, hosting and domains cheap!&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;custom website, original website, cheap website, website design, cheap domain names, cheap hosting, cheap cloud hosting&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Michael D Mooring&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta http-equiv=&quot;X-Powered-By&quot; content=&quot;DocPad v6.50.0&quot;/&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+    &lt;link rel=&quot;shortcut icon&quot; href=&quot;ico/favicon.ico&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;ico/apple-touch-icon-144-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;ico/apple-touch-icon-114-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;ico/apple-touch-icon-72-precomposed.png&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;ico/apple-touch-icon-57-precomposed.png&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+	&lt;link  rel=&quot;stylesheet&quot; href=&quot;/vendor/twitter-bootstrap/css/bootstrap.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/vendor/twitter-bootstrap/css/bootstrap-responsive.css&quot; /&gt;&lt;link  rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;!-- Markup --&gt;
+	&lt;div class=&quot;navbar navbar-fixed-top&quot;&gt;
+		&lt;div class=&quot;navbar-inner&quot;&gt;
+			&lt;div class=&quot;container&quot;&gt;
+				&lt;a class=&quot;brand&quot; href=&quot;/&quot;&gt;Web-Mart&lt;/a&gt;
+				&lt;ul class=&quot;nav&quot;&gt;
+					&lt;li&gt;&lt;a href=&quot;http://www.web-mart.me/&quot;&gt;&lt;i class=&quot;icon-globe&quot;&gt;&lt;/i&gt; Domains&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href=&quot;http://www.web-mart.me/hosting/web-hosting_4.aspx?ci=1782&amp;prog_id=webmartme&quot;&gt;&lt;i class=&quot;icon-tasks&quot;&gt;&lt;/i&gt; Hosting&lt;/a&gt;&lt;/li&gt;
+					
+						&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/websites&quot; class=&quot;&quot;&gt;
+							&lt;a href=&quot;/pages/websites&quot; property=&quot;dc:title&quot;&gt;&lt;i class=&quot;icon-picture&quot;&gt;&lt;/i&gt; Websites&lt;/a&gt;
+						&lt;/li&gt;
+					
+						&lt;li typeof=&quot;sioc:Page&quot; about=&quot;/pages/more&quot; class=&quot;&quot;&gt;
+							&lt;a href=&quot;/pages/more&quot; property=&quot;dc:title&quot;&gt;&lt;i class=&quot;icon-align-justify&quot;&gt;&lt;/i&gt; More&lt;/a&gt;
+						&lt;/li&gt;
+					
+					&lt;li class=&quot;persona-btn&quot; style=&quot;display:none&quot;&gt;&lt;i class=&quot;icon-user&quot;&gt;&lt;/i&gt;Sign In&lt;/li&gt;
+				&lt;/ul&gt;
+				&lt;span class=&quot;pull-right contact-header&quot;&gt;
+					&lt;a class=&quot;phone clearfix&quot; href=&quot;&quot;&gt;609-651-9358&lt;/a&gt;
+					&lt;a class=&quot;muted clearfix&quot; href=&quot;mailto:hi@web-mart.me&quot;&gt;&lt;sup&gt;hi@web-mart.me&lt;/sup&gt;&lt;/a&gt;
+				&lt;/span&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;container&quot;&gt;
+		&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;
+			&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	&lt;h1&gt;This is a Blog Post&lt;/h1&gt;
+	&lt;div class=&quot;post-content&quot;&gt;&lt;p&gt;This is a &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+	
+&lt;/footer&gt;
+		&lt;/section&gt;
+		&lt;footer&gt;
+			&lt;span class=&quot;pull-left&quot;&gt;&amp;copy; Web-Mart 2013 
+				&lt;script data-cfbadgetype=&quot;f&quot; data-cfbadgeskin=&quot;icon&quot; type=&quot;text/javascript&quot;&gt;
+					//&lt;![CDATA[
+					try{window.CloudFlare||function(){var a=window.document,b=a.createElement(&quot;script&quot;),a=a.getElementsByTagName(&quot;script&quot;)[0];window.CloudFlare=[];b.type=&quot;text/javascript&quot;;b.async=!0;b.src=&quot;//ajax.cloudflare.com/cdn-cgi/nexp/cloudflare.js&quot;;a.parentNode.insertBefore(b,a)}(),CloudFlare.push(function(a){a([&quot;cloudflare/badge&quot;])})}catch(e$$5){try{console.error(&quot;CloudFlare badge code could not be loaded. &quot;+e$$5.message)}catch(e$$6){}};
+					//]]&gt;
+				&lt;/script&gt;
+			&lt;/span&gt;
+			&lt;span class=&quot;pull-right&quot;&gt;
+				&lt;a href=&quot;http://massdistributionmedia.com/&quot;&gt;A MDM Company&lt;/a&gt;. &lt;br/&gt;
+				&lt;span class=&quot;muted&quot;&gt;last updated on 2013-08-22T15:37:20.447Z&lt;/span&gt;
+			&lt;/span&gt;
+		&lt;/footer&gt;
+	&lt;/div&gt;&lt;!-- /container --&gt;
+
+	&lt;!-- Scripts --&gt;
+	&lt;script defer=&quot;defer&quot;  src=&quot;/vendor/jquery.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;&lt;script defer=&quot;defer&quot;  src=&quot;/scripts/script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+</feed>
