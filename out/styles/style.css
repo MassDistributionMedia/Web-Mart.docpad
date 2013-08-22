@@ -78,7 +78,8 @@ li {
 }
 .navbar .nav .active > a,
 .navbar .nav .active > a:hover {
-  background-color: #0af;
+  background-color: transparent;
+  color: #444;
 }
 .order-now {
   bottom: 77px;
